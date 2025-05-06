@@ -1,0 +1,523 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f2ef;
+}
+
+
+
+nav {
+    background-color: #CAA091; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+nav img {
+    height: 70px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: 2px solid #952E42; 
+    border-radius: 20px; 
+    transition: all 0.3s ease;
+    background-color: transparent; 
+}
+
+/* Botón activo */
+nav ul li a.active {
+  background-color: #952E42;
+  color: white;
+}
+
+/* Hover botones */
+nav ul li a:hover {
+    background-color: #952E42;
+    color: white;
+}
+
+/* Encabezado y menú */
+.header {
+    background-color: #CAA091;
+    padding: 20px 0; 
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 30px; 
+}
+
+
+.logo img {
+    height: 80px; 
+}
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    background-color: #CAA091;
+    border: 2px solid #952E42;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+    
+
+.menu a:hover {
+    background-color: #952E42;
+    color: white;
+}
+
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: url('pexels-arina-krasnikova-6663368.jpg') no-repeat center center/cover;
+    position: relative;
+    padding: 100px 20px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 96px;
+    font-family: 'Bowlby One SC', sans-serif;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+/* Sección SOBRE MÍ */
+.sobre-mi {
+    background: url('pexels-midtrack-14996838.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 60px;
+    position: relative;
+  }
+  
+  .titulo-sobre-mi {
+    background-color: #DA4C5C;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .titulo-sobre-mi h2 {
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  .doctora-img {
+    position: absolute;
+    top: -4px;
+    left: 281px;
+    height: 600px;
+    z-index: 3;
+  }
+  
+  /* Caja de texto */
+  .contenido-sobre-mi {
+    background-color: rgba(133, 43, 71, 0.95);
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 15px;
+    padding: 40px 40px 40px 300px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .texto-sobre-mi p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 1.6;
+  }
+  
+ 
+
+/* Botón activo */
+nav ul li a.active {
+  background-color: #952E42;
+  color: white;
+}
+
+
+/* Hover sobre los botones */
+nav ul li a:hover {
+    background-color: #952E42;
+    color: white;
+}
+
+/*SERVICIOS*/
+
+.contenido-sobre-mi {
+  background-color: #952E42;
+  margin: 0 auto;
+  max-width: 900px;
+  border-radius: 15px;
+  padding: 40px 40px 40px 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.servicios {
+  background: url('primer-plano-de-gel-hidroalcoholico-laico-plano.jpg') no-repeat center center fixed;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 60px 20px;
+}
+
+.servicios-contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.categoria {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.grupo-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.servicio {
+  width: 180px;
+  text-align: center;
+}
+
+.servicio img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #ffffff;
+}
+
+
+
+
+.servicio h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.servicio p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600; 
+  line-height: 1.4;
+}
+
+.bloque-servicios {
+  background-color: rgba(149, 46, 66, 0.8); 
+  border-radius: 20px;
+  padding: 40px 20px;
+  margin: 40px 0;
+}
+
+
+
+/* CASOS EXITO */
+
+.casos-de-exito {
+  background: url('primer-plano-de-gel-hidroalcoholico-de-vista-superior (1).jpg') no-repeat center center;
+  background-size: cover;
+  padding: 60px 20px;
+}
+
+.titulo-casos {
+  background-color: #DC4E5B;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.titulo-casos h1 {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 64px;
+  color: #fff;
+}
+
+.testimonio {
+  text-align: center;
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.testimonio img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.testimonio h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #952E42;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.testimonio p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.6;
+}
+
+.resaltado {
+  color: #DC4E5B;
+  font-weight: 700;
+}
+
+.mensaje-final {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin-top: 60px;
+  padding: 0 20px;
+  color: #000000;
+}
+
+
+
+.seccion-titulo {
+  background-color: #DC4E5B;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.seccion-titulo h1 {
+  font-family: 'Bowlby One SC', sans-serif;
+  font-size: 48px;
+  color: white;
+}
+
+/* Contacto */
+.formulario-contacto {
+  background-image: url('pexels-cottonbro-6635922.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario-contacto form {
+  background-color: rgba(149, 46, 66, 0.75); 
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+  text-align: center; 
+}
+
+.fila {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center; 
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+
+input, textarea {
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 8px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+input:focus, textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #FEC8C1;
+}
+
+button {
+  background-color: #DC4E5B;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #952E42;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-info a {
+  color: #DC4E5B;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+
+/*tyc*/
+.terminos {
+  background-image: url('pexels-humanist-beauty-1407356-10695232.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.caja-terminos {
+  background-color: rgba(149, 46, 66, 0.9); 
+  font-family: 'Raleway', sans-serif;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.caja-terminos p {
+  margin-bottom: 20px;
+}
+
+.caja-terminos strong {
+  color: white;
+  font-weight: bold;
+}
+
+.caja-terminos ul, .caja-terminos li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: #CAA091;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 3px solid #952E42;
+}
