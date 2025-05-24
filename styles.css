@@ -305,9 +305,11 @@ nav ul li a:hover {
 }
 
 .titulo-casos {
-  background-color: #DC4E5B;
+  background-color: #952E42;
+  width: 100%;
+  padding: 20px 0;
   text-align: center;
-  padding: 30px 20px;
+
 }
 
 .titulo-casos h1 {
