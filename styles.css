@@ -40,7 +40,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     padding: 8px 20px;
     border: 2px solid #952E42; 
     border-radius: 20px; 
@@ -91,7 +91,7 @@ nav ul li a:hover {
     border: 2px solid #952E42;
     padding: 8px 16px;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
     
@@ -163,7 +163,7 @@ nav ul li a:hover {
   .titulo-sobre-mi h2 {
     font-family: 'Bowlby One SC', cursive;
     color: white;
-    font-size: 60px;
+    font-size: 76px;
     margin: 0;
     position: relative;
     z-index: 2;
@@ -238,7 +238,7 @@ nav ul li a:hover {
 
 .categoria {
   font-family: 'Bowlby One SC', cursive;
-  font-size: 48px;
+  font-size: 76px;
   color: #ffffff;
   text-align: center;
   margin-top: 60px;
@@ -272,7 +272,7 @@ nav ul li a:hover {
 
 .servicio h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 700; 
   margin-top: 10px;
@@ -281,7 +281,7 @@ nav ul li a:hover {
 
 .servicio p {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   font-weight: 600; 
   line-height: 1.4;
@@ -312,7 +312,7 @@ nav ul li a:hover {
 
 .titulo-casos h1 {
   font-family: 'Bowlby One SC', cursive;
-  font-size: 64px;
+  font-size: 76px;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ nav ul li a:hover {
 
 .testimonio p {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #000;
   line-height: 1.6;
 }
@@ -352,7 +352,7 @@ nav ul li a:hover {
 .mensaje-final {
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 60px;
   padding: 0 20px;
   color: #000000;
@@ -368,7 +368,7 @@ nav ul li a:hover {
 
 .seccion-titulo h1 {
   font-family: 'Bowlby One SC', sans-serif;
-  font-size: 48px;
+  font-size: 76px;
   color: white;
 }
 
@@ -411,7 +411,7 @@ nav ul li a:hover {
 
 label {
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   width: 100%;
 }
@@ -422,7 +422,7 @@ input, textarea {
   border-bottom: 2px solid white;
   background: transparent;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   padding: 8px 0;
   text-align: center;
   width: 100%;
@@ -438,7 +438,7 @@ button {
   background-color: #DC4E5B;
   color: white;
   padding: 10px 30px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -463,7 +463,7 @@ button:hover {
   text-decoration: none;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
